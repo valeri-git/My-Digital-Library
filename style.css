@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: black;
+    
+  }
+  
+  div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    padding-top: 18px;
+    color: rgb(120, 173, 219);
+  
+  }
+  h3 {
+    color: #7a7a7a;
+  }
+  
+  h2 {
+    
+    color: rgb(5, 153, 42);
+  }
+  p {
+    font-size: 20px;
+    padding-top: 18px;
+    color: rgb(68, 79, 238)
+  }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+  }
+  
+  /* Valeri-SRC.GITHUB.IO */
+  .valeri-git-link {
+    color: rgb(0, 247, 255);
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .valeri-git-link:hover {
+    color: white;
+    background-color: black;
+  }
+  .valeri-git-link-wrapper {
+    min-height: 500px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
